@@ -11,11 +11,11 @@
 ;
 ;   Revision History:
 ;       08/31/2012  Steven Okai     Initial revision.
+;       09/01/2012  Steven Okai     Added Firewire to devices.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-#Warn  ; Recommended for catching common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory
 
