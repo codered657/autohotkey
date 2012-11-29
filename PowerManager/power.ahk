@@ -48,7 +48,7 @@ powerMode = 1 ;
     } else {
         Run devcon enable "USB\VID_05AC&PID_8242&REV_0016" ,, hide         ; Enable Apple IR Receiver
         Run devcon enable "USB\VID_05AC&PID_8509&REV_0516&MI_00" ,, hide  ; Enable FaceTime Camera
-        Run devcon disable "USB\VID_05AC&PID_8509&REV_0516&MI_02" ,, hide ; and its entry under system devices
+        Run devcon enable "USB\VID_05AC&PID_8509&REV_0516&MI_02" ,, hide ; and its entry under system devices
         Run devcon enable "PCI\VEN_14E4&DEV_16BC&SUBSYS_000014E4&REV_10" ,, hide  ; Enable Broadcom SD Host Controller
         Run devcon enable "HDAUDIO\FUNC_01&VEN_1013&DEV_4206&SUBSYS_106B1C00&REV_1003" ,, hide ; Enable Cirrus Logic CS4206A
         Run devcon enable "IDE\CdRomMATSHITA_DVD-R___UJ-898_________________HE13____" ,, hide ; Enable Matshita DVD-R
