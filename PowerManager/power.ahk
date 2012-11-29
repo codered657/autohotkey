@@ -13,6 +13,7 @@
 ;       08/31/2012  Steven Okai     Initial revision.
 ;       09/01/2012  Steven Okai     Added Firewire to devices.
 ;                                   Added FaceTime camera entry in system devices.
+;       11/28/2012  Steven Okai     Fixed bug where FaceTime camera not re-enabled.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
